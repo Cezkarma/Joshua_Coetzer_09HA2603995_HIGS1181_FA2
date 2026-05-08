@@ -790,8 +790,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: HIGS1181_Topdown_Shooter
-  metroPackageVersion: 
+  metroPackageName: HIGS1181TopdownShooter
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -799,7 +799,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: HIGS1181_Topdown_Shooter
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: HIGS1181_Topdown_Shooter
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
