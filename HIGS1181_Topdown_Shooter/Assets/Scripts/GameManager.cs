@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] int numberOfEnemiesToSpawn;
     [SerializeField] GameObject winCanvas;
     [SerializeField] GameObject enemiesLeftPanel;
+    [SerializeField] GameObject controlsPanel;
     [SerializeField] TextMeshProUGUI enemyAmountLabel;
 
     private int numberOfEnemiesKilled = 0;
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("You win!!!");
             enemiesLeftPanel.SetActive(false);
+            controlsPanel.SetActive(false); ///I added the controls panel after submitting my PDF but still within the deadline, so this line doesn't appear in my code snippet.
             winCanvas.SetActive(true);
         }
     }
